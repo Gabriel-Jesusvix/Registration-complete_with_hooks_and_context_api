@@ -17,7 +17,7 @@ export default function UserForm({route, navigation}) {
         placeholder="Informe o Nome"
         value={user.name}
       />
-      <Text style={styles.title}>Email:</Text>
+      <Text style={styles.title}>Email - </Text>
       <TextInput
         style={styles.input}
         onChangeText={email => setUser({...user, email})}
